@@ -153,7 +153,7 @@ public class EFPromotions extends JFrame implements ActionListener {
         }
 
         if (e.getSource() == about) {
-            JOptionPane.showMessageDialog(null, "About app", "Version 1.0.0, Made by OxLemonxO", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Version 1.0.1, made by OxLemonxO", "About app", JOptionPane.INFORMATION_MESSAGE);
         }
 
         if (e.getSource() == clickDone) {
