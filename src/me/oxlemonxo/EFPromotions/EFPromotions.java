@@ -167,7 +167,7 @@ public class EFPromotions extends JFrame implements ActionListener {
             finalseniorobjects = seniorobjects * Float.valueOf(responseSeniorObject);
 
             Final1 = finalvouches + finalvouchandrecs + finalseniorvouches + finalseniorvouchandrecs;
-            Final2 = seniorobjectswithreasons + finalseniorobjects + finalobjects + finalobjectswithreasons;
+            Final2 = seniorobjectswithreasons + finalseniorobjects + finalobjects + finalobjectswithreasons; + 3;
             RealFinal = Final1 - Final2;
             if (RealFinal == 0 | RealFinal > 0) {
                 FinalMessage = Float.toString(RealFinal);
